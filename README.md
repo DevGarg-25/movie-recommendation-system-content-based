@@ -8,4 +8,5 @@ you need to run movie_recommender_system.py file file first as it dumps 2 (.pkl)
 
 My app is app.py
 you may run it using command $ streamlit run app.py
-movie recommendation system is the file for preprocessing of data and a sample how my code runs.
+
+movie recommendation is the file for preprocessing of data and a sample how my code runs.
