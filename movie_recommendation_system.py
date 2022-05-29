@@ -8,13 +8,13 @@ import pickle
 
 '''creating dataframes from our csv dataset'''
 
-movies = pd.read_csv('tmdb_5000_movies.csv')
+movies = pd.read_csv('Resources/tmdb_5000_movies.csv')
 
 '''we can check if our dataframe is created successfully using the command:'''
 
 # print(movies.head()) 
 
-credits = pd.read_csv('tmdb_5000_credits.csv')
+credits = pd.read_csv('Resources/tmdb_5000_credits.csv')
 
 # print(credits.head())
 
