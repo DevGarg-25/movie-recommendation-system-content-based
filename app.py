@@ -53,7 +53,7 @@ movies['title'].values)
 
 if st.button('Recommend'):
 
-    st.subheader('You liked this movie :')
+    st.subheader('So, the movie you liked is :')
     
     movie_index1 = movies[movies['title'] == selected_movie_name].index[0]
     movie_id1 = movies.iloc[movie_index1].id
